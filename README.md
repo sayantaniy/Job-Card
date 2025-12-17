@@ -43,9 +43,7 @@ Planned improvements:
 
 ## 📸 Preview
 
-
-
-<img src="screenshot.png" alt="Job Listing Preview" width="100%"/>
+<img src="./screenshot.png" alt="Job Listing Preview" width="100%"/>
 
 ---
 
