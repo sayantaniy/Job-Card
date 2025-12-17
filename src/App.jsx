@@ -44,7 +44,7 @@ const App = () => {
     {
       id: 4,
       company: "Netflix",
-      brandLogo: "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
+      brandLogo: "https://static.vecteezy.com/system/resources/previews/017/396/804/non_2x/netflix-mobile-application-logo-free-png.png",
       title: "UX Researcher",
       employmentType: "Contract",
       level: "Senior Level",
@@ -56,7 +56,7 @@ const App = () => {
     {
       id: 5,
       company: "Meta",
-      brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy3ZqxYhMdW3qa__685iJWJwGQGhV4VCivoQ&s",
+      brandLogo: "https://img.freepik.com/premium-vector/meta-company-logo_265339-667.jpg?semt=ais_hybrid&w=740&q=80",
       title: "UI Designer",
       employmentType: "Part-Time",
       level: "Junior Level",
@@ -68,7 +68,7 @@ const App = () => {
     {
       id: 6,
       company: "Apple",
-      brandLogo: "https://substackcdn.com/image/fetch/$s_!G1lk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg",
+      brandLogo: "https://images.seeklogo.com/logo-png/15/1/apple-logo-png_seeklogo-158010.png",
       title: "Human Interface Designer",
       employmentType: "Full-Time",
       level: "Senior Level",
@@ -92,7 +92,7 @@ const App = () => {
     {
       id: 8,
       company: "Spotify",
-      brandLogo: "https://s3-alpha.figma.com/hub/file/2734964093/9f5edc36-eb4d-414a-8447-10514f2bc224-cover.png",
+      brandLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
       title: "Interaction Designer",
       employmentType: "Contract",
       level: "Mid Level",
@@ -104,7 +104,7 @@ const App = () => {
     {
       id: 9,
       company: "Flipkart",
-      brandLogo: "https://www.citypng.com/public/uploads/preview/flipkart-logo-icon-hd-png-701751694706828v1habfry9b.png",
+      brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxggIt5CPQqUxKi3eW4QhNIKv5eH5LdhRwMA&s",
       title: "UX/UI Designer",
       employmentType: "Full-Time",
       level: "Mid Level",
@@ -132,6 +132,7 @@ const App = () => {
       {
         jobOpenings.map((job) => {
           return <Card 
+          
           company={job.company} 
           brandLogo={job.brandLogo}
           title={job.title}
