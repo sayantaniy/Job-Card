@@ -44,9 +44,8 @@ Planned improvements:
 ## 📸 Preview
 
 
-```md
-![Project Screenshot](./screenshot.png)
-```
+
+<img src="screenshot.png" alt="Job Listing Preview" width="100%"/>
 
 ---
 
