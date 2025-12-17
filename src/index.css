@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend&family=Playwrite+US+Trad+Guides&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: 'Inter', sans-serif;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+.parent{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgb(23, 25, 30),rgb(74, 80, 104));
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:10px;
+  box-shadow: 1px 1px 1px 1px rgb(125, 122, 122);
+  backdrop-filter: blur(10px);
+}
+
+.card .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding:5px;
+  background-size:cover;
+}
+
+.card .top button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 9px;
+  gap:3px;
+  background-color: transparent;
+  color: #706d6d;
+  cursor: pointer;
+  border: 1px solid #c3c0c0;
+}
+
+.card .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b1b1b1;
+  padding: 10px;
+  font-size: small;
+}
+
+.card .bottom p{
+  font-size:x-small;
+  color: #706d6d;
+  padding:5px 0px;
+}
+.card .bottom button{
+  background-color: black;
+  color: white;
+  outline: none;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Google Sans",sans-serif;
+  cursor: pointer;
+}
+
+.card .centre{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:10px;
+  margin-bottom:70px !important;
+}
+
+.card .centre h3{
+  color: rgb(50, 50, 50);
+}
+
+.card .centre h2{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px 0px;
+}
+
+.card .centre div{
+  display: flex;
+  font-size: x-small;
+  font-weight: 100;
+  gap:10px;
+  /* padding: 0 3px; */
+}
+
+.card .centre div h4{
+  background-color: #d1d1d1;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  gap:10px;
+  padding: 5px 8px;
+}
+
+span{
+  color: #878686;
+  font-size: x-small;
+  font-weight: 250;
+  padding: 0px 10px;
+  
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
